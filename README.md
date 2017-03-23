@@ -22,3 +22,8 @@ this would install all the things needed for babel.
  another main.js in it.
  -Then write the es6 code in src main.js and give "npm run build" this would 
  create a es5.js in dist main.js and thus the code is converted to es5.... 
+ 
+ This would be the output obtained 
+ ![screenshot 40](https://cloud.githubusercontent.com/assets/25049925/24239763/2e385936-0fd5-11e7-8292-22d4087d9d01.png)
+![screenshot 41](https://cloud.githubusercontent.com/assets/25049925/24239764/2e38e702-0fd5-11e7-8281-ffeea9305afc.png)
+
