@@ -1,0 +1,20 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  /*This is the current es6 folder script*/
+  "scripts": {
+   "build":"babel src -d dist"
+  },
+  /*This is the dist folder script where es6 codes are converted into es5 */
+  "scripts": {
+   "build":"babel --presets es2015 src -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0"
+  }
+}
